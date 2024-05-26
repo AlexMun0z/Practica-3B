@@ -57,7 +57,6 @@ Es declara l'objecte SerialBT, objecte que esta definit dintre la biblioteca Blu
 __4. Setup__
 ```cpp
 void setup() {
-void setup() {
 Serial.begin(115200);
 SerialBT.begin("ESP32test2"); //Bluetooth device name
 Serial.println("The device started, now you can pair it with bluetooth!");

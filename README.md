@@ -65,7 +65,7 @@ Serial.println("The device started, now you can pair it with bluetooth!");
 }
 ```
 S'estableix la configuració inicial del programa:
-- Serial.begin(115200): Inicialitza la comunicació sèrie en 115200 baudis.
+- Serial.begin(115200): Inicialitza la comunicació sèrie en 115200 bauds.
 - SerialBT.begin("ESP32test2"): Inicialitza la conexió Bluetooth i ens indica el nom del dispositiu que hem de buscar.
 - Serial.println: Imprimeix per pantalla que el dispositiu es disponible per linkar amb bluetooth.
   
